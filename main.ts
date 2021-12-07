@@ -1,7 +1,7 @@
 /**
  * MakeCode extension for ESP8266 Wifi modules and ThinkSpeak website https://thingspeak.com/
  */
-//% color=#009b5b icon="\uf1eb" block="NAO8266"
+//% color=#ff9ec6 icon="\uf1eb" block="NAO8266"
 namespace NAO8266 {
 
     let wifi_connected: boolean = false
@@ -152,7 +152,7 @@ namespace NAO8266 {
     /**
     * Check if ESP8266 successfully connected to MQTT
     */
-
+    //% block="MQTT connect successful ?"
     export function isMQTTConnected(){
         return mqtt_connected
     }
